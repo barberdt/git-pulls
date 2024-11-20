@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-net --allow-env main.ts"
+  },
+  "imports": {
+    "@hono/hono": "jsr:@hono/hono@^4.6.10",
+    "octokit": "npm:octokit@^4.0.2"
+  }
+}
