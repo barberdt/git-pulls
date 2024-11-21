@@ -2,6 +2,9 @@
   "version": "4",
   "specifiers": {
     "jsr:@hono/hono@^4.6.10": "4.6.10",
+    "npm:@octokit/core@^6.1.2": "6.1.2",
+    "npm:@octokit/openapi-types@^22.2.0": "22.2.0",
+    "npm:@octokit/types@^13.6.1": "13.6.1",
     "npm:octokit@^4.0.2": "4.0.2_@octokit+core@6.1.2"
   },
   "jsr": {
@@ -238,6 +241,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@^4.6.10",
+      "npm:@octokit/openapi-types@^22.2.0",
+      "npm:@octokit/types@^13.6.1",
       "npm:octokit@^4.0.2"
     ]
   }
